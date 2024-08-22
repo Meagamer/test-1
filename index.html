@@ -35,10 +35,19 @@
         table{
             width: 100%;
         }
+        #nextpage {
+            font-size: 30px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            position: relative;
+            left: 50%;
+            background-color: rgb(23, 199, 223);
+            
+        }
+
         </style>
 </head>
 <body>
-    <h1>HARSHAD</h1>
+    <h1 id="test1">TEST#1</h1>
     <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, alias.
     </p>
@@ -265,5 +274,12 @@
 <br> <br> <br> <br> <br>
 <label for="username"></label>
 <input type="text" id="username" placeholder="username">
+<br> <br> <br> <br> <br>
+<button onclick="gotoNextPage()" id="nextpage">animation</button>
+<script>
+    function gotoNextPage() {
+        window.location.href = 'animation.html';
+    }
+</script>
 </body>
 </html>                 
