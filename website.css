@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #EFFDF5;
+}
+#home{
+    width: 1320px;
+    height: 660px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+#house{
+    width: 660px;
+    height: 660px;
+    float: right;
+}
+div > #intro{
+    font-size: 48px;
+    font-family: sans-serif;
+    margin-left: 40px; 
+}
