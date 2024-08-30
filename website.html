@@ -6,11 +6,16 @@
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="website.css">
     <title>Document</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script defer>
+        AOS.init();
+    </script>
 </head>
 <body>
-    <main>
+    <main class="main">
         <section id="container1">
             <header> <!-- NAVBAR -->
               <div class="nav-logo">
@@ -26,9 +31,91 @@
                  <button id="nav-button">Add Property</button>
               </div> 
             </header>
-            <section> <!--HERO SECTION-->
-              
+            <section class="hero"> <!--HERO SECTION-->
+              <div class="hero-section1">
+                <P class="p1" style="color: #0E2E50;">Find A <span style="color: #00B98E;">Perfect Home</span> To Live With Your Family</P>
+                <P class="p2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</P>
+                <button>Get Started</button>
+              </div>
+              <div class="hero-section2">
+                <img src="img/carousel-1.jpg" alt="house-logo">
+                <button class="hero-img-btn1 hero-img-btn"> </button>
+                <button class="hero-img-btn2 hero-img-btn"> </button>
+              </div>
             </section>
+            <section class="below-hero">  <!--BELOW-HERO -->
+                <div class="hero-section3">
+                    <input type="text" placeholder="Search Keyword" class="below-hero-info">
+                    <select name="prperty" id="property_1" class="below-hero-info">
+                        <option value="property1">Property Type</option>
+                        <option value="property2">Property Type 1</option>
+                        <option value="property3">Property Type 2</option>
+                        <option value="property4">Property Type 3</option>
+                    </select>
+                    <select name="location" id="location_1" class="below-hero-info">
+                        <option value="location">Location</option>
+                        <option value="location">Location 1</option>
+                        <option value="location">Location 2</option>
+                        <option value="location">Location 3</option>
+                    </select>
+                    <button>search</button>
+                  </div>
+            </section>
+        </section>
+       <section class="container2">   <!-- PROPERTY TYPES -->
+           <div>
+             <div class="property-types-p">
+
+                <p class="c2p1">Property Types</p>
+                <p class="c2p2">
+                    Eirmod sed ipsum dolor sit rebum labore magna erat.
+                     Tempor ut dolore <br> lorem kasd vero ipsum sit eirmod sit.
+                     Ipsum diam justo sed rebum vero dolor duo.
+                    </p>
+             </div>
+             <div class="property-types-grid">
+               <div class="property-grid">
+                <img src="/img/icon-apartment.png" alt="appartment">
+                <p class="p1">Apartment</p>
+                <p class="p2">123 Property</p>
+               </div>
+               <div class="property-grid">
+                <img src="/img/icon-villa.png" alt="appartment">
+                <p class="p1">Villa</p>
+                <p class="p2">123 Property</p>
+               </div>
+               <div class="property-grid">
+                <img src="/img/icon-house.png" alt="appartment">
+                <p class="p1">Home</p>
+                <p class="p2">123 Property</p>
+               </div>
+               <div class="property-grid">
+                <img src="/img/icon-condominium.png" alt="appartment">
+                <p class="p1">Office</p>
+                <p class="p2">123 Property</p>
+               </div>
+               <div class="property-grid">
+                <img src="/img/icon-apartment.png" alt="appartment">
+                <p class="p1">Building</p>
+                <p class="p2">123 Property</p>
+               </div>
+               <div class="property-grid">
+                <img src="/img/icon-apartment.png" alt="appartment">
+                <p class="p1">Townhouse</p>
+                <p class="p2">123 Property</p>
+               </div>
+               <div class="property-grid">
+                <img src="/img/icon-apartment.png" alt="appartment">
+                <p class="p1">Shop</p>
+                <p class="p2">123 Property</p>
+               </div>
+               <div class="property-grid">
+                <img src="/img/icon-apartment.png" alt="appartment">
+                <p class="p1">Garage</p>
+                <p class="p2">123 Property</p>
+               </div>
+             </div>
+           </div>
         </section>
     </main>
 </body>
