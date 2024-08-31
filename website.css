@@ -180,6 +180,7 @@ header{
       .property-types-grid{
         width: 100%;
         background-color: white;
+        padding: 30px;
         display: grid;
         grid-template-columns: repeat(4, 1fr); /* 2 equal-width columns */
         grid-template-rows: repeat(2, 1fr);    /* 2 equal-height rows */
@@ -197,6 +198,7 @@ header{
         justify-content: center;
         text-align: center;
         transition: background-color 0.7s;
+        cursor: pointer;
       }
       .property-grid img{
         width: 60px;
@@ -229,4 +231,73 @@ header{
       }
       .property-grid:hover .p2{
         color: #ffffff;
+      }
+         /* CONTAINER 3 */
+      .container3-main{
+        width: 100%;
+        padding: 30px;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 equal-width columns */
+        grid-template-rows: repeat(1, 1fr);    /* 1 equal-height rows */
+        
+     }       /* IMAGE SECTION */
+      .grid-img{
+        position: relative;
+        width: 100%;
+        height: 650px;
+      }
+      .grid-img img{
+        position: absolute;
+        top: 50px;
+        left:50px;
+        width: 88%;
+        object-fit: cover;
+        z-index: 2;
+      }
+      .background{
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 650px;
+        background-color: #00B98E;
+        clip-path: polygon(0 0, 28% 0, 68% 100%, 0% 100%);
+      }      /* TEXT SECTION */
+      .grid-text{
+        padding-top:120px;
+        padding-left: 30px;
+      }
+      .grid-text .c3p1{
+        font-size: 40px;
+        color: #0E2E50;
+        line-height: 1;
+      }
+      .grid-text .c3p2{
+        font-size: 15px;
+        font-weight: normal;
+        color: #898989;
+        padding: 25px 0px 25px;
+      }
+      .grid-text .c3p3{
+        padding: 10px;
+        font-weight: normal;
+        color: #898989;
+      }
+      .grid-text i{
+        padding-right:15px;
+        font-weight: bolder;
+      }
+      .grid-text button{
+        margin-top: 30px;
+        width: 160px;
+        height: 60px;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #00B98E;
+        border: none;
+        border-radius: 8px;
+        transition: background-color 0.7s;
+      }
+      .grid-text button:hover{
+        background-color: #04d3a3;
       }
