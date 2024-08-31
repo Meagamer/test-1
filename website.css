@@ -301,3 +301,151 @@ header{
       .grid-text button:hover{
         background-color: #04d3a3;
       }
+      .container3-half{
+        background-color: #ffffff;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 equal-width columns */
+        grid-template-rows: repeat(1, 1fr);    /* 1 equal-height rows */
+        padding: 50px 20px 30px 30px;
+      }
+      .c3p4{
+        color: #0E2E50;
+        font-size: 45px;
+      }
+      .c3p5{
+        color: #898989;
+        font-weight: normal;
+        font-size: 15px;
+      }
+      .c3btn-container{
+         display: flex;
+         gap: 10px;
+      }
+      .c3btn{
+        position: relative;
+        width: 80px;
+        height: 35px;
+        background-color: #ffffff;
+        border: 1px solid #00B98E;
+        border-radius: 5px;
+        font-size: 17px;
+        font-weight: normal;
+        color: #454545;
+        transition: background-color 0.5s, color 0.5s;
+        left: 350px;
+        top: 68px;
+      }
+      .c3btn:hover{
+        background-color: #00B98E;
+        color: #ffffff;
+      }
+      /* CONTAINER 4 */
+      .container4-main{
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 2 equal-width columns */
+        grid-template-rows: repeat(2, 1fr);    /* 1 equal-height rows */
+        gap: 20px;
+        padding: 50px 20px 30px 30px;
+      }
+      .house-grid{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 420px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.204);
+      }
+      .house-grid img{
+        width: 100%;
+        position: relative;
+        display: block;
+        transition: transform 0.5s ease;
+      }
+      .house-grid img:hover{
+        transform: scale(1.1);
+      }
+      .house-grid-p1{
+        position: absolute;
+        z-index:1;
+        padding: 4px 12px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: normal;
+        border-radius: 5px;
+        left: 25px;
+        top: 23px;
+        background-color: #00B98E;
+      }
+      .house-grid-p2{
+        position: absolute;
+        z-index:1;
+        padding: 4px 12px;
+        color: #00B98E;
+        font-size: 15px;
+        font-weight: normal;
+        border-radius: 5px;
+        left: 25px;
+        top: 238px;
+        background-color: #ffffff;
+      }
+      .house-grid-text{
+        position: relative;
+        width: 100%;
+        height: 180px;
+        background-color: #ffffff;
+        z-index: 2;
+      }
+      .c4p1{
+        font-size: 20px;
+        color: #00B98E;
+        position: absolute;
+        left: 25px;
+        top: 8px;
+      }
+      .c4p2{
+        font-size:20px;
+        color: #0E2E50;
+        position: absolute;
+        left: 25px;
+        top: 40px;
+        transition: color 0.3s;
+      }
+      .c4p2:hover{
+        color: #00B98E;
+      }
+      .c4p3{
+        font-weight: normal;
+        font-size: 16px;
+        color: #898989;
+        position: absolute;
+        left: 25px;
+        top: 68px;
+      }
+      .c4p3 i{
+        padding-right: 6px;
+      }
+
+      .bottom-icon{
+        display: flex;
+        background-color: #ffffff;
+        justify-content: space-evenly;
+        border-top: 1px dotted #00B98E;
+        position: absolute;
+        z-index: 3;
+        bottom: 5px;
+      }
+      .bottom-icon p{
+        padding: 10px 32px 0px 32px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #898989;
+      }
+      .bottom-icon i{
+        padding-right: 8px;
+      }
+      .bottom-icon-p1{
+        border-right: 1px dotted #00B98E;
+      }
