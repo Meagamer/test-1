@@ -344,18 +344,21 @@ header{
       .container4-main{
         background-color: white;
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 2 equal-width columns */
-        grid-template-rows: repeat(2, 1fr);    /* 1 equal-height rows */
+        grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+        grid-template-rows: repeat(2, 1fr);    /* 2 equal-height rows */
         gap: 20px;
         padding: 50px 20px 30px 30px;
       }
       .house-grid{
         position: relative;
         overflow: hidden;
-        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* 1 equal-width columns */
+        grid-template-rows: repeat(3, 1fr);    /* 3 equal-height rows */
+        width: 95%;
         height: 420px;
         background-color: #ffffff;
-        border-radius: 10px;
+        border-radius: 5px;
         box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.204);
       }
       .house-grid img{
@@ -379,38 +382,53 @@ header{
         top: 23px;
         background-color: #00B98E;
       }
-      .house-grid-p2{
-        position: absolute;
-        z-index:1;
-        padding: 4px 12px;
-        color: #00B98E;
-        font-size: 15px;
-        font-weight: normal;
-        border-radius: 5px;
-        left: 25px;
-        top: 238px;
-        background-color: #ffffff;
-      }
       .house-grid-text{
         position: relative;
         width: 100%;
-        height: 180px;
+        height: 130px;
         background-color: #ffffff;
         z-index: 2;
+      }
+      .house-grid-text::after{
+        position: absolute; 
+        display: inline;
+        font-weight: normal;
+        font-size: 16px;
+        padding: 5px 15px 10px 15px;
+        color: #00B98E;
+        top:-23px;
+        left: 20px;
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+        z-index: 4;
+      }
+      .house-grid-text-1::after{
+        content: 'Appartment';
+      }
+      .house-grid-text-2::after{
+        content: 'Villa';
+      }
+      .house-grid-text-3::after{
+        content: 'Office';
+      }
+      .house-grid-text-4::after{
+        content: 'Building';
+      }
+      .house-grid-text-5::after{
+        content: 'Home';
+      }
+      .house-grid-text-6::after{
+        content: 'Shop';
       }
       .c4p1{
         font-size: 20px;
         color: #00B98E;
-        position: absolute;
-        left: 25px;
-        top: 8px;
+        padding: 15px 0px 10px 30px;
       }
       .c4p2{
         font-size:20px;
         color: #0E2E50;
-        position: absolute;
-        left: 25px;
-        top: 40px;
+        padding: 0px 0px 0px 30px;
         transition: color 0.3s;
       }
       .c4p2:hover{
@@ -420,9 +438,7 @@ header{
         font-weight: normal;
         font-size: 16px;
         color: #898989;
-        position: absolute;
-        left: 25px;
-        top: 68px;
+        padding: 0px 0px 0px 30px;
       }
       .c4p3 i{
         padding-right: 6px;
@@ -433,12 +449,9 @@ header{
         background-color: #ffffff;
         justify-content: space-evenly;
         border-top: 1px dotted #00B98E;
-        position: absolute;
-        z-index: 3;
-        bottom: 5px;
       }
       .bottom-icon p{
-        padding: 10px 32px 0px 32px;
+        padding: 10px 22px 0px 22px;
         font-size: 14px;
         font-weight: normal;
         color: #898989;
@@ -449,3 +462,23 @@ header{
       .bottom-icon-p1{
         border-right: 1px dotted #00B98E;
       }
+      .container4-btn{
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+      }
+      .container4-btn button{
+        width: 250px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        background-color: #00B98E;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: normal;
+        transition: background-color 0.5s;
+      }
+      .container4-btn button:hover{
+        background-color: #04d3a3;
+      }
+        /* CONTAINER 5 */
