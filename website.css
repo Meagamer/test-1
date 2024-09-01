@@ -9,7 +9,7 @@
 body{
   display: flex;
   justify-content: center;
-  background-color: #EFFDF5;
+  background-color: #effdf5;
 }
 .main{
     width: 1282px;
@@ -193,7 +193,7 @@ header{
         height: 220px;
         background-color: rgb(255, 255, 255);
         border-radius: 10px;
-        border: 15px solid #EFFDF5;
+        border: 15px solid #effdf5;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -470,6 +470,7 @@ header{
       .container4-btn button{
         width: 250px;
         height: 50px;
+        margin-bottom:100px;
         border-radius: 5px;
         border: none;
         background-color: #00B98E;
@@ -482,3 +483,79 @@ header{
         background-color: #04d3a3;
       }
         /* CONTAINER 5 */
+      .container5{
+        width: 100%;
+        background-color: #ffffff;
+      }
+        .certified-agent{
+        width: 92%;
+        background-color: #ffffff;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 equal-width columns */
+        grid-template-rows: repeat(1, 1fr);    /* 1 equal-height rows */
+        border: 2px dotted #00B98E;
+        box-shadow: 0px 0px 0px 18px #effdf5;
+        border-radius: 2px;
+        margin-bottom: 100px;
+      }
+      .certified-agent-img{
+        padding: 25px;
+      }
+      .certified-agent img{
+        width: 100%;
+        border-radius: 5px;
+      }
+      .certified-agent-text{
+        display: block;
+        align-content: center;
+        padding: 0px 30px;
+      }
+      .c5p1{
+        color: #0E2E50;
+        font-size: 40px;
+      }
+      .c5p2{
+        font-size: 16px;
+        font-weight: normal;
+        color: #898989;
+        padding: 20px 0px;
+      }
+      .c5btn{
+        display:inline;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: normal;
+        border-radius: 5px;
+        border: none;
+        color: #ffffff;
+        transition: background-color 0.5s;
+      }
+      .c5btn i{
+        padding-right: 10px;
+      }
+      .c5btn1{
+        background-color: #00B98E;
+      }
+      .c5btn1:hover{
+        background-color: #04d3a3;
+      }
+      .c5btn2{
+        background-color: #0E2E50;
+      }
+      .c5btn2:hover{
+        background-color: #1b314a;
+      }
+      .middle-text{
+        text-align: center;
+        padding: 30px;
+      }
+      .c5p3{
+        font-size: 40px;
+        color: #0E2E50;
+        padding: 10px 0px 0px 0px;
+      }
+      .c5p4{
+        font-weight: normal;
+        color: #898989;
+      }
