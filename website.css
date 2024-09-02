@@ -536,6 +536,7 @@ header{
       }
       .c5btn1{
         background-color: #00B98E;
+        margin-right: 10px;
       }
       .c5btn1:hover{
         background-color: #04d3a3;
@@ -558,4 +559,239 @@ header{
       .c5p4{
         font-weight: normal;
         color: #898989;
+      }
+      .agents-grid-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4equal-width columns */
+        grid-template-rows: repeat(1, 1fr);    /* 1 equal-height rows */
+        gap: 10px;
+        padding: 20px;
+      }
+      .agents-grid{
+        background-color: #ffffff;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 5px 5px 100px 10px rgba(0, 0, 0, 0.061);
+      }
+      .agents-grid img{
+         width: 100%;
+         height: auto;
+         object-fit: cover;
+         position: relative;
+         border-radius: 5px;
+         z-index: 2;
+      }
+      .agents-grid-text {
+        background-color: #ffffff;
+        text-align: center;
+        position: relative;
+        padding: 20px; 
+        border-radius: 8px;
+      }
+      .agents-grid-text i {
+        position: absolute; 
+        z-index: 5;
+        margin: 10px; 
+        padding: 10px 10px 0px 10px; 
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+        box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.08);
+        top: -40px;
+        background-color: #ffffff;
+        transition: background-color 0.5s, color 0.5s;
+        color: #00B98E;
+      }
+      .agents-grid-text i:hover{
+        background-color: #00B98E;
+        color: #ffffff;
+      }
+      .agents-grid-text i:hover i{
+        color: #ffffff;
+      }
+      .facebook-icon {
+        top: 10px;
+        left: 70px;
+      }
+      .twitter-icon {
+        top: 10px;
+        left: calc(40% - 10px);
+      }
+      .instagram-icon {
+        top: 10px;
+        right: 95px;
+      }
+      .c5p5{
+       font-size: 20px;
+       color: #0E2E50;
+      }
+      .c5p6{
+        font-weight: normal;
+        font-size: 14px;
+      }
+       /* CONTAINER 6 */
+       .container6{
+        background-color: #ffffff;
+       }
+      .container-6-text{
+        text-align: center;
+        padding: 130px 30px 0px;
+      }
+      .c6p1{
+        font-size: 40px;
+        color: #0E2E50;
+      }
+      .c6p2{
+        font-weight: normal;
+      }
+      .feedback{
+        background-color: #ffffff;
+        padding: 60px 0px 100px 0px;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr); /* 2 equal-width columns */
+        grid-template-rows: repeat(1, 1fr);    /* 1 equal-height rows */
+        gap: 5px;
+        margin: auto;
+      }
+      .feedback-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* 1 equal-width columns */
+        grid-template-rows: repeat(1, 1fr);    /* 1 equal-height rows */
+        width: 90%;
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px dotted #00B98E;
+        box-shadow: 0px 0px 0px 10px #effdf5;
+      }
+      .feedback-text p{
+        font-weight: normal;
+        color: #444444;
+      }
+      .feedback-img{
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+      }
+      .feedback-img img{
+        width: 10%;
+        border-radius: 5px;
+      }
+      .c6p3{
+       font-size: 17px;
+       color: #0E2E50;
+      }
+      .c6p4{
+        font-weight: normal;
+        font-size: 14px;
+        color: #444444;
+      }
+        /* FOOTER */
+        footer{
+          background-color: #0E2E50;
+        }
+        .footer-container{
+          display: grid;
+          grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+          grid-template-rows: repeat(1, 1fr);    /* 1 equal-height rows */
+          padding: 50px 20px;
+        }
+        .footer-grid{
+          padding: 10px;
+          line-height: 2;
+        }
+        .fp1{
+          color: #ffffff;
+          font-size: 20px;
+          font-weight: bold;
+          padding-bottom: 20px;
+        }
+        .fp2{
+          color: #bcbaba;
+          font-weight: normal;
+        }
+        .fp2 i{
+          padding-right: 10px;
+        }
+      .footer-grid-1 .fi1{
+        width: 35px;
+        height: 35px;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+        margin: 10px 0px 10px 5px;
+        padding: 10px;
+        color: #ffffff;
+        transition: background-color 0.5s, color 0.5s;
+        cursor: pointer;
+      }
+      .fi1:hover{
+        background-color: #ffffff;
+        color: #00B98E;
+      }
+      .fp3 i{
+        padding-right: 8px;
+      }
+      .fp3{
+        color: #bcbaba;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        transform-origin: left;
+        font-size: 16px;
+        font-weight: normal;
+      }
+      .fp3:hover{
+        transform: scaleX(1.2);
+      }
+      .photo-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+        grid-template-rows: repeat(2, 1fr);    /* 2 equal-height rows */
+        gap: 10px;
+      }
+      .photo-grid img{
+        width: 100%;
+        border: 5px solid white;
+        border-radius: 5px;
+      }
+      .fp4{
+        color: #bcbaba;
+        font-weight: normal;
+      }
+      .footer-text-container{
+        position: relative;
+        display: inline-block;
+      }
+      #your-email{
+        padding: 20px;
+        font-size: 16px;
+        width: 300px;
+        height: 50px;
+        background-color: transparent;
+        border: 1px solid #bcbaba;
+        border-radius: 5px;
+        font-weight: normal;
+        position: relative;
+      }
+      .footer-button{
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        height: 40px;
+        width: 50ppx;
+        transform: translateY(-50%);
+        padding: 10px 15px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        background-color: #00B98E;
+        color: #fff;
+         border-radius: 5px;
+      }
+      #your-email:focus{
+        box-shadow: 0px 0px 5px 2px #00B98E;
+        outline: none;
       }
