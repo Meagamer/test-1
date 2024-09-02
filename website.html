@@ -386,10 +386,24 @@
                 <input type="text" id="your-email" placeholder="Your email">
                 <button class="footer-button">SignUp</button>
               </div>
-              
+            </div>
+          </div>
+          <div class="footer-ending">
+            <p class="normal">© <a>Your Site Name</a>, All Right Reserved. Designed By <a>HTML Codex</a></p>
+            <div class="footer-end">
+              <p class="normal right">Home</p>
+              <p class="normal right">Cokies</p>
+              <p class="normal right">Help</p>
+              <p class="normal">FQAs</p>
             </div>
           </div>
         </footer>
     </main>
+    <script>
+      window.addEventListener("scroll", function(){
+        let header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 10);
+      })
+    </script>
 </body>
 </html>
