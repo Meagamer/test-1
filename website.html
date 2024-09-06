@@ -12,10 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="website.css">
     <title>Document</title>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
-    <script defer>
-        AOS.init();
-    </script>
 </head>
 <body>
     <main class="main">
@@ -159,7 +155,9 @@
         <section class="container4">
           <div class="container4-main">
 
-            <div class="house-grid">
+            <div class="house-grid"
+                 data-aos="fade-up"
+                 data-aos-duration="300">
               <p class="house-grid-p1">For Sell</p>
               <img src="/img/property-1.jpg" alt="property-1">
               <div class="house-grid-text house-grid-text-1">
@@ -174,7 +172,9 @@
               </div>
             </div>
 
-            <div class="house-grid">
+            <div class="house-grid"
+                 data-aos="fade-up"
+                 data-aos-duration="400">
               <p  class="house-grid-p1">For Sell</p>
               <img src="/img/property-2.jpg" alt="property-1">
               <div class="house-grid-text house-grid-text-2">
@@ -189,7 +189,9 @@
               </div>
             </div>
 
-            <div class="house-grid">
+            <div class="house-grid"
+                 data-aos="fade-up"
+                 data-aos-duration="500">
               <p  class="house-grid-p1">For Sell</p>
               <img src="/img/property-3.jpg" alt="property-1">
               <div class="house-grid-text house-grid-text-3">
@@ -204,7 +206,9 @@
               </div>
             </div>
 
-            <div class="house-grid">
+            <div class="house-grid"
+                 data-aos="fade-up"
+                 data-aos-duration="600">
               <p class="house-grid-p1">For Sell</p>
               <img src="/img/property-4.jpg" alt="property-1">
               <div class="house-grid-text house-grid-text-4">
@@ -219,7 +223,9 @@
               </div>
             </div>
 
-            <div class="house-grid">
+            <div class="house-grid"
+                 data-aos="fade-up"
+                 data-aos-duration="700">
               <p class="house-grid-p1">For Sell</p>
               <img src="/img/property-5.jpg" alt="property-1">
               <div class="house-grid-text house-grid-text-5">
@@ -234,7 +240,9 @@
               </div>
             </div>
 
-            <div class="house-grid">
+            <div class="house-grid"
+                 data-aos="fade-up"
+                 data-aos-duration="800">
               <p class="house-grid-p1">For Sell</p>
               <img src="/img/property-6.jpg" alt="property-1">
               <div class="house-grid-text house-grid-text-6">
@@ -405,5 +413,9 @@
         header.classList.toggle("sticky", window.scrollY > 10);
       })
     </script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+         AOS.init();
+     </script>
 </body>
 </html>
